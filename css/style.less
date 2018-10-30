@@ -18,7 +18,7 @@ body {
 // 	border: none;
 // }
 
-section {
+main {
 	padding-top: 10%;
 	padding-bottom: 10%;
 }
@@ -115,11 +115,11 @@ header {
 
 // ******************************************* 
 // *                                         * 
-// *               section                   * 
+// *               main                      * 
 // *                                         * 
 // ******************************************* 
 
-section {
+main {
 	.item {
 		margin-bottom: 50px;
 		text-align: center;
@@ -137,6 +137,41 @@ section {
 		text-decoration: none;
 	}
 }
+
+
+
+// *********************************************
+// **********    Медиа-запросы     *************
+
+/* LG - Large Devices, Desktops Wide Screens */
+@media only screen and (max-width : 1600px) {
+
+}
+
+/* MD - Medium Devices, Desktops */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* SM - Small Devices, Tablets  */
+@media only screen and (max-width : 991px) {
+
+}
+
+/* XS - Extra Small Devices, Phones */
+@media only screen and (max-width : 767px) {
+	main {
+		.item {
+			img {margin: 0 auto;}
+		}
+	}
+}
+
+/* XS - Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) {
+	
+}
+
 
 
 
@@ -159,48 +194,3 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-// *********************************************
-// **********    Медиа-запросы     *************
-
-// XS < 768 px ****** Phones 0 - 480 px
-@media (min-width: 0px) and (max-width: 480px) {
-	
-
-}
-// XS < 768 px ****** Phones 481 - 767 px
-@media (min-width: 481px) and (max-width: 767px) {
-	
-
-}
-// SM >= 768 px ****** Tablets 768 - 991 px
-@media (min-width: 768px) and (max-width: 991px) {
-	
-
-}
-// MD >= 992 px ****** Desktops 992 - 1199 px
-@media (min-width: 992px) and (max-width: 1199px) {
-
-
-}
-// LG >= 1200 px ****** Desktops 1200 - 1600 px
-@media (min-width: 1200px) and (max-width: 1600px) {
-
-
-}
-// LG >= 1601 px ****** 
-@media (min-width: 1601px) {
-
-
-}
