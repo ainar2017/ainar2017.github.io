@@ -52,7 +52,7 @@ main .item {
   text-align: center;
 }
 main .item img {
-  margin-bottom: 15px;
+  margin: 0 auto 15px;
 }
 main a {
   font-family: Arial, Helvetica, sans-serif;

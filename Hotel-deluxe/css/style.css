@@ -17,6 +17,15 @@ section {
 .section-header h2 {
   font-size: 60px;
 }
+.home-btn {
+  position: fixed;
+  z-index: 9999;
+  bottom: 5px;
+  right: 30px;
+}
+.home-btn img {
+  width: 150px;
+}
 /* ************* Base colors **************** */
 header {
   position: relative;
