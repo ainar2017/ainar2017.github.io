@@ -1,0 +1,412 @@
+/* ********** Fonts files ******************* */
+/* ********** Base Settings **************** */
+input,
+textarea,
+button {
+  border: none;
+}
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+section {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.section-header h2 {
+  font-size: 60px;
+}
+/* ************* Base colors **************** */
+header {
+  position: relative;
+  height: 550px;
+  background: #cccccc url(../img/bg-header.jpg) no-repeat center;
+}
+header .logo {
+  background-color: #2a2e33;
+}
+header .logo h1 {
+  display: inline-block;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+header .logo h1 span {
+  color: #ffd700;
+}
+header .logo img {
+  display: inline-block;
+  margin: 0 200px;
+}
+header .logo p {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: normal;
+  color: #fff;
+  text-transform: uppercase;
+}
+header nav {
+  background-color: rgba(42, 46, 51, 0.7);
+  text-align: center;
+}
+header nav a {
+  display: inline-block;
+  margin-right: -4px;
+  padding: 10px 0;
+  width: 16.66666%;
+  color: #fff;
+  border-left: 1px solid #4f5256;
+  border-right: 1px solid #7c7f84;
+  text-transform: uppercase;
+}
+header nav a:hover {
+  margin-top: -4px;
+  border-top: 4px solid #ffd700;
+  color: #fff;
+  background-color: #060606;
+  text-decoration: none;
+}
+header nav a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+header form {
+  margin: 390px auto 0;
+  width: 85%;
+}
+header form .header_form {
+  background-color: rgba(6, 6, 6, 0.9);
+  font-size: 18px;
+  border-radius: 6px;
+}
+header form .header_form label {
+  margin-top: 12px;
+  margin-bottom: 5px;
+  color: #ffd700;
+}
+header form .header_form input {
+  padding: 0 15px;
+  width: 100%;
+  height: 44px;
+  border-radius: 6px;
+}
+header form .header_form button {
+  margin-top: 41px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 44px;
+  color: #000;
+  background-color: #ffd700;
+  border-radius: 6px;
+}
+header form .header_form button:hover {
+  background-color: #f5cd00;
+}
+/* LG - Large Devices, Desktops Wide Screens */
+/* MD - Medium Devices, Desktops 992-1199px */
+@media only screen and (max-width: 1200px) {
+  header .logo img {
+    margin: 0 120px;
+  }
+  header form {
+    margin: 390px auto 0;
+    width: 100%;
+  }
+}
+/* SM - Small Devices, Tablets 767-991px */
+@media only screen and (max-width: 991px) {
+  header .logo img {
+    margin: 0 15px;
+  }
+}
+/* XS - Extra Small Devices, Phones 480-766 */
+@media only screen and (max-width: 767px) {
+  header .logo {
+    text-align: center;
+  }
+  header .logo img {
+    display: none;
+  }
+  header .logo p {
+    display: none;
+  }
+  header nav {
+    background-color: transparent;
+  }
+  header nav a {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    background-color: rgba(42, 46, 51, 0.7);
+    border: 1px solid #fff;
+  }
+  header nav a:hover {
+    margin-top: -3px;
+  }
+  header form {
+    margin: 150px auto 0;
+    width: 400px;
+  }
+}
+/* XS - Extra Small Devices, Phones 0-479 */
+@media only screen and (max-width: 480px) {
+  header .logo img {
+    display: none;
+  }
+  header form {
+    width: 290px;
+  }
+}
+#book {
+  padding-top: 100px;
+  background: #eeeeee url('../img/bg-Book-A-Package.png');
+  border-bottom: 2px solid #ccc;
+}
+.slider {
+  margin: 50px auto 0;
+  width: 70%;
+}
+.slider_item img {
+  margin: 0 auto;
+  border: 3px solid #000;
+  border-radius: 50%;
+}
+.slider-arrows {
+  position: absolute;
+  top: 28%;
+  font-size: 70px;
+  z-index: 2;
+}
+.slider-arrows:hover {
+  cursor: pointer;
+}
+.slick-active {
+  outline: none;
+}
+.slick-slide {
+  outline: none;
+}
+.arrow-left {
+  left: -100px;
+}
+.arrow-right {
+  right: -100px;
+}
+/* LG - Large Devices, Desktops Wide Screens */
+/* MD - Medium Devices, Desktops 992-1199px */
+@media only screen and (max-width: 1200px) {
+  .slider_item img {
+    width: 190px;
+  }
+  .slider-arrows {
+    font-size: 60px;
+  }
+}
+/* SM - Small Devices, Tablets 767-991px */
+@media only screen and (max-width: 992px) {
+  .section-header h2 {
+    font-size: 50px;
+  }
+  .slider_item img {
+    width: 145px;
+  }
+  .slider-arrows {
+    top: 26%;
+    font-size: 50px;
+  }
+}
+/* XS - Extra Small Devices, Phones 480-766 */
+@media only screen and (max-width: 767px) {
+  #book {
+    padding-top: 300px;
+    padding-bottom: 20px;
+  }
+  .section-header h2 {
+    font-size: 40px;
+  }
+  .slider {
+    margin: 30px auto 0;
+  }
+  .slider-arrows {
+    top: 28%;
+    font-size: 40px;
+  }
+  .arrow-left {
+    left: -40px;
+  }
+  .arrow-right {
+    right: -40px;
+  }
+}
+/* XS - Extra Small Devices, Phones 0-479 */
+@media only screen and (max-width: 480px) {
+  .section-header h2 {
+    font-size: 30px;
+  }
+  .slider_item img {
+    width: 120px;
+  }
+  .slider-arrows {
+    top: 33%;
+    font-size: 30px;
+  }
+}
+#room {
+  padding-bottom: 50px;
+  background: #eeeeee url("../img/room/bg-room.png");
+}
+#room .section-header {
+  margin-bottom: 35px;
+}
+.room-box {
+  text-align: center;
+}
+.room-img {
+  margin: 0 auto;
+  border: 1px solid;
+  box-shadow: 1px 2px 20px 0px rgba(0, 0, 0, 0.78);
+}
+.room-name {
+  margin-top: 20px;
+  font-size: 24px;
+}
+.room-icon {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+/* LG - Large Devices, Desktops Wide Screens */
+/* MD - Medium Devices, Desktops 992-1199px */
+/* SM - Small Devices, Tablets 767-991px */
+@media only screen and (max-width: 992px) {
+  .room-name {
+    font-size: 20px;
+  }
+}
+/* XS - Extra Small Devices, Phones 480-766 */
+@media only screen and (max-width: 767px) {
+  #room {
+    padding-bottom: 30px;
+  }
+}
+/* XS - Extra Small Devices, Phones 0-479 */
+#advantage {
+  padding: 0;
+  background: #ffd700;
+}
+#advantage .container {
+  position: relative;
+}
+#advantage .text {
+  width: 79%;
+}
+#advantage h3 {
+  margin: 45px 0 35px;
+  font-size: 55px;
+  color: #fff;
+}
+#advantage p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #fff;
+}
+#advantage .man {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  text-align: center;
+}
+/* LG - Large Devices, Desktops Wide Screens */
+/* MD - Medium Devices, Desktops 992-1199px */
+@media only screen and (max-width: 1200px) {
+  #advantage h3 {
+    font-size: 45px;
+  }
+  #advantage p {
+    font-size: 16px;
+  }
+}
+/* SM - Small Devices, Tablets 768-991px */
+@media only screen and (max-width: 991px) {
+  #advantage h3 {
+    font-size: 33px;
+  }
+}
+/* XS - Extra Small Devices, Phones 481-767 */
+@media only screen and (max-width: 767px) {
+  #advantage .text {
+    width: 100%;
+  }
+  #advantage .man {
+    position: relative;
+    right: 0;
+  }
+}
+/* XS - Extra Small Devices, Phones 0-480 */
+@media only screen and (max-width: 480px) {
+  #advantage h3 {
+    font-size: 30px;
+  }
+}
+footer {
+  padding-bottom: 60px;
+  background-color: #2a2e33;
+  color: #c9c9c9;
+}
+footer h3 {
+  margin-top: 40px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+footer .news p {
+  margin-bottom: 0px;
+}
+footer .news span {
+  color: #877a30;
+}
+footer .members input {
+  margin-bottom: 10px;
+  padding: 0 10px;
+  width: 100%;
+  height: 30px;
+  background: #2a2e33;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+footer .members input:hover {
+  background: #34383d;
+}
+footer .footer_btn {
+  margin-top: 10px;
+  width: 120px;
+  height: 30px;
+  color: #000;
+  background-color: #ffd700;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 8px;
+  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.56);
+}
+footer .footer_btn:hover {
+  background-color: #f5cd00;
+  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.36);
+}
+.footer-bottom {
+  height: 30px;
+  background-color: #060606;
+}
+/* LG - Large Devices, Desktops Wide Screens */
+/* MD - Medium Devices, Desktops 992-1199px */
+/* SM - Small Devices, Tablets 767-991px */
+@media only screen and (max-width: 992px) {
+  footer h3 {
+    font-size: 18px;
+  }
+  footer .members input {
+    display: block;
+    width: 240px;
+  }
+}
+/* XS - Extra Small Devices, Phones 480-766 */
+/* XS - Extra Small Devices, Phones 0-479 */
