@@ -1,8 +1,8 @@
-/* ********** Fonts files ******************* */
-/* ********** Base Settings **************** */
 body {
   background: #f7eac9 url(../img/body-bg.png);
 }
+/* ********** Fonts files ******************* */
+/* ********** Base Settings **************** */
 main {
   padding-top: 10%;
   padding-bottom: 10%;
@@ -54,22 +54,33 @@ main .item {
 main .item img {
   margin: 0 auto 15px;
 }
-main a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+main .item p {
+  font-size: 16px;
   color: #000;
 }
-main a:hover {
-  color: blue;
+main .item a {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 7px 25px;
+  border-radius: 30px;
+  background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
   text-decoration: none;
+  outline: none;
+  box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+  transition: 0.35s;
+}
+main .item a:hover {
+  box-shadow: 0 5px 20px 0 rgba(0, 40, 120, 0.35);
+  background-position: 0 0;
 }
 /* LG - Large Devices, Desktops Wide Screens */
 /* MD - Medium Devices, Desktops */
 /* SM - Small Devices, Tablets  */
 /* XS - Extra Small Devices, Phones */
-@media only screen and (max-width: 767px) {
-  main .item img {
-    margin: 0 auto;
-  }
-}
 /* XS - Extra Small Devices, Phones */

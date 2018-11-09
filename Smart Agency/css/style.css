@@ -37,14 +37,27 @@ section {
 .section-header p {
   font-size: 16px;
 }
+/*кнопка На главную*/
 .home-btn {
   position: fixed;
   z-index: 9999;
-  bottom: 5px;
+  bottom: 25px;
   right: 30px;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  background: green;
+  text-transform: uppercase;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 1px 2px 11px 0px rgba(0, 0, 0, 0.52);
 }
-.home-btn img {
-  width: 150px;
+.home-btn:hover,
+.home-btn:focus {
+  color: #c9ffcb;
+  text-decoration: none;
+  box-shadow: 1px 2px 11px 0px rgba(0, 0, 0, 0.32);
 }
 /* ************* Base colors **************** */
 /* ************ Main Screen ****************** */
@@ -830,6 +843,10 @@ h1 {
   background: transparent;
 }
 @media (min-width: 0px) and (max-width: 480px) {
+  /*кнопка На главную*/
+  .home-btn {
+    bottom: 8px;
+  }
   #process {
     margin-top: 100px;
     margin-bottom: 40px;
@@ -914,6 +931,10 @@ h1 {
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
+  /*кнопка На главную*/
+  .home-btn {
+    bottom: 8px;
+  }
   #process .section-header {
     margin-bottom: 0;
   }

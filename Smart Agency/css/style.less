@@ -43,13 +43,36 @@ section {
 }
 
 // кнопка На главную
+// .home-btn {
+// 	position: fixed;
+// 	z-index: 9999;
+// 	bottom: 5px;
+// 	right: 30px;
+// 	img {
+// 		width: 150px;
+// 	}
+// }
+
+/*кнопка На главную*/
 .home-btn {
 	position: fixed;
 	z-index: 9999;
-	bottom: 5px;
+	bottom: 25px;
 	right: 30px;
-	img {
-		width: 150px;
+	padding: 5px 20px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	background: green;
+	text-transform: uppercase;
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	box-shadow: 1px 2px 11px 0px rgba(0, 0, 0, 0.52);
+	&:hover,
+	&:focus {
+		color: #c9ffcb;
+		text-decoration: none;
+		box-shadow: 1px 2px 11px 0px rgba(0, 0, 0, 0.32);
 	}
 }
 
@@ -1069,6 +1092,11 @@ h1 {
 // XS < 768 px ****** Phones 0 - 480 px
 @media (min-width: 0px) and (max-width: 480px) {
 
+	/*кнопка На главную*/
+	.home-btn {
+		bottom: 8px;
+	}
+
 	// Process section
 	#process {
 		margin-top: 100px;
@@ -1173,6 +1201,11 @@ h1 {
 
 // XS < 768 px ****** Phones 481 - 767 px
 @media (min-width: 481px) and (max-width: 767px) {
+
+	/*кнопка На главную*/
+	.home-btn {
+		bottom: 8px;
+	}
 
 	// Process section
 	#process {

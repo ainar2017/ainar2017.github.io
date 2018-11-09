@@ -1,0 +1,90 @@
+<!-- кнопка На главную -->
+<a href="https://ainar2017.github.io/index.html" class="home-btn">На главную</a>
+
+
+<!-- стили для LESS -->
+<style>
+
+/*кнопка На главную*/
+.home-btn {
+	position: fixed;
+	z-index: 9999;
+	bottom: 83px;
+	right: 30px;
+	padding: 5px 20px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	background: green;
+	text-transform: uppercase;
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	box-shadow: 1px 2px 11px 0px rgba(0, 0, 0, 0.52);
+	&:hover,
+	&:focus {
+		color: #c9ffcb;
+		text-decoration: none;
+		box-shadow: 1px 2px 11px 0px rgba(0, 0, 0, 0.32);
+	}
+}
+
+/* стили для медиа запросов */
+@media only screen and (max-width : 767px) {
+
+	/*кнопка На главную*/
+	.home-btn {
+		top: 32px;
+		bottom: auto;
+		left: 30px;
+		right: auto;
+	}
+	
+}
+
+</style>
+
+
+
+
+
+<!-- стили для CSS -->
+<style>
+
+/*кнопка На главную*/
+.home-btn {
+	position: fixed;
+	z-index: 9999;
+	bottom: 83px;
+	right: 30px;
+	padding: 5px 20px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	background: green;
+	text-transform: uppercase;
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	box-shadow: 1px 2px 11px 0px rgba(0, 0, 0, 0.52);
+}
+
+.home-btn:hover,
+.home-btn:focus {
+	color: #c9ffcb;
+	text-decoration: none;
+	box-shadow: 1px 2px 11px 0px rgba(0, 0, 0, 0.32);
+}
+
+/* стили для медиа запросов */
+@media only screen and (max-width : 767px) {
+
+	/*кнопка На главную*/
+	.home-btn {
+		top: 32px;
+		bottom: auto;
+		left: 30px;
+		right: auto;
+	}
+	
+}
+
+</style>

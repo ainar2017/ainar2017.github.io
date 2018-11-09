@@ -17,14 +17,27 @@ section {
 .section-header h2 {
   font-size: 60px;
 }
+/*кнопка На главную*/
 .home-btn {
   position: fixed;
   z-index: 9999;
-  bottom: 5px;
-  right: 30px;
+  bottom: 25px;
+  right: 12px;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  background: green;
+  text-transform: uppercase;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 1px 2px 11px 0px rgba(0, 0, 0, 0.52);
 }
-.home-btn img {
-  width: 150px;
+.home-btn:hover,
+.home-btn:focus {
+  color: #c9ffcb;
+  text-decoration: none;
+  box-shadow: 1px 2px 11px 0px rgba(0, 0, 0, 0.32);
 }
 /* ************* Base colors **************** */
 header {
