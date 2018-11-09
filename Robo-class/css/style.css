@@ -26,35 +26,6 @@ section {
 .section-header p {
   font-size: 16px;
 }
-.home-btn {
-  position: fixed;
-  z-index: 9999;
-  bottom: 5px;
-  right: 30px;
-}
-.home-btn img {
-  width: 150px;
-}
-.home-btn1 {
-  position: fixed;
-  z-index: 9999;
-  bottom: 55px;
-  right: 30px;
-  padding: 5px 20px;
-  font-size: 15px;
-  font-weight: bold;
-  color: #fff;
-  background: green;
-  text-transform: uppercase;
-  border: 2px solid #ccc;
-  border-radius: 20px;
-  box-shadow: 1px 2px 11px 0px rgba(0, 0, 0, 0.52);
-}
-.home-btn1:hover {
-  color: #c9ffcb;
-  text-decoration: none;
-  box-shadow: 1px 2px 11px 0px rgba(0, 0, 0, 0.32);
-}
 /* ************* Base colors **************** */
 header {
   height: 150px;
@@ -88,6 +59,7 @@ nav.main-menu a {
   text-align: center;
 }
 aside nav.left-menu {
+  margin-top: 30px;
   margin-bottom: 30px;
   background: #b2c6e7;
   border: 1px solid #000;
