@@ -5,15 +5,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Барсмед</title>
 
-  <!-- Bootstrap -->
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+  <!-- bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- Slider-slick -->
-  <link rel="stylesheet" href="slider-slick/slick.css">
-  <link rel="stylesheet" href="slider-slick/slick-theme.css">
-  <!-- Style.css -->
+  <!-- style.css -->
   <link rel="stylesheet" href="css/style.css">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -33,7 +31,186 @@
 <!-- ******************************************* -->
 
 <header>
-  <h1>... Скоро ...</h1>
+  <div class="top-menu">
+    <nav class="navbar navbar-default">
+      <div class="container">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-top-menu" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="collapse-top-menu">
+          <ul class="nav navbar-nav navbar_left">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Казань <img src="img/kazan-menu-down.svg" alt="menu-down"></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Альметьевск</a></li>
+                <li><a href="#">Бугульма</a></li>
+                <li><a href="#">Набережные Челны</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Пациентам</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Врачам</a></li>
+            <li><a href="#">Об организации</a></li>
+            <li><a href="#">Вопрос и ответ</a></li>
+            <li><a href="#">Новости и статьи</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#"><img src="img/eye.svg" alt="eye"></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/magnifying-glass.svg" alt="magnifying-glass"></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/male-user-shadow.svg" alt="male-user-shadow"></a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container -->
+    </nav>
+  </div><!-- /.top-menu -->
+
+  <div class="logo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="logo-img">
+            <a href="#"><img src="img/logo.svg" alt="logo"></a>
+          </div><!-- /.logo-img -->
+        </div><!-- /.col-md-5 -->
+
+        <div class="col-md-4 col-sm-7">
+          <div class="adress">
+            <img src="img/map-mark.svg" alt="map-mark">
+            <p>Адрес</p>
+            <span>ул.Мавлютова д.2 (18 гор больница)<img src="img/menu-down.svg" alt="menu-down"></span>
+          </div><!-- /.adress -->
+        </div><!-- /.col-md-4 -->
+
+        <div class="col-md-3 col-sm-5">
+          <div class="phone">
+            <img src="img/phone.svg" alt="phone-mark">
+            <p>Пн - Вс, круглосуточно</p>
+            <span>+7 (843) 224-86-86<img src="img/menu-down.svg" alt="menu-down"></span>
+          </div><!-- /.phone -->
+        </div><!-- /.col-md-3 -->
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </div><!-- /.logo -->
+
+  <div class="main-menu">
+    <nav class="navbar navbar-default">
+      <div class="container">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-main-menu" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div><!-- /.navbar-header -->
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="collapse-main-menu">
+          <ul class="nav navbar-nav">
+            <li>
+              <img src="img/medicine-flask.svg" alt="medicine-flask">
+              <a href="#">Анализы</a>
+            </li>
+            <li>
+              <img src="img/pharmacy-cross-sign.svg" alt="pharmacy-cross-sign">
+              <a href="#">Симпoтомы</a>
+            </li>
+            <li>
+              <img src="img/three-lines.svg" alt="three-lines">
+              <a href="#">Обследования</a>
+            </li>
+            <li>
+              <img src="img/cough.svg" alt="cough">
+              <a href="#">Заболевания</a>
+            </li>
+            <li>
+              <img src="img/money.svg" alt="money">
+              <a href="#">Цены</a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container -->
+    </nav>
+  </div><!-- /.main-menu -->
+
+  <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <!-- Indicators -->
+    <!-- <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+    </ol> -->
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/slide1.jpg" alt="slide1">
+        <div class="carousel-caption">
+          <h2>Акция в честь открытия сайта</h2>
+          <p>Ясность нашей позиции очевидна:<br>
+             высокотехнологичная концепция общественного<br>
+             уклада представляет собой интересный<br>
+             эксперимент проверки вывода текущих активов.</p>
+          <a href="#" class="btn">Подробнее</a>
+        </div><!-- /.carousel-caption -->
+      </div><!-- /.item -->
+
+      <div class="item">
+        <img src="img/slide1.jpg" alt="slide1">
+        <div class="carousel-caption">
+          <h2>Акция в честь открытия сайта</h2>
+          <p>Ясность нашей позиции очевидна:<br>
+             высокотехнологичная концепция общественного<br>
+             уклада представляет собой интересный<br>
+             эксперимент проверки вывода текущих активов.</p>
+          <a href="#" class="btn">Подробнее</a>
+        </div><!-- /.carousel-caption -->
+      </div><!-- /.item -->
+
+      <div class="item">
+        <img src="img/slide1.jpg" alt="slide1">
+        <div class="carousel-caption">
+          <h2>Акция в честь открытия сайта</h2>
+          <p>Ясность нашей позиции очевидна:<br>
+             высокотехнологичная концепция общественного<br>
+             уклада представляет собой интересный<br>
+             эксперимент проверки вывода текущих активов.</p>
+          <a href="#" class="btn">Подробнее</a>
+        </div><!-- /.carousel-caption -->
+      </div><!-- /.item -->      
+    </div><!-- /.carousel-inner -->
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+      <img src="img/arrow-right.svg" alt="">
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+      <img src="img/arrow-right.svg" alt="">
+      <span class="sr-only">Next</span>
+    </a>
+  </div><!-- /.carousel -->
+
 </header>
 
 
@@ -54,7 +231,130 @@
 <!-- *                                         * -->
 <!-- ******************************************* -->
 
+<main>
+  <!-- узор -->
+  <div class="pattern">
+    <img class="img-responsive" src="img/design.jpg" alt="">
+  </div><!-- /.pattern -->
 
+  <div class="container">
+    <div class="heading">
+      <h2>Современная клиника "Барсмед" предоставляет</h2>
+      <p>Полноценное обследование от а до я</p>
+    </div><!-- /.heading -->
+    <div class="row">
+      <div class="col-md-7">
+        <div class="tabs">
+          <div class="circle">
+            <img src="img/main/circle.svg" alt="">
+            <!-- <div class="contour"></div> -->
+            <!-- <div class="contour-hover"></div> -->
+          </div><!-- /.circle -->
+
+          <!-- Nav tabs -->
+          <ul class="nav" role="tablist">          
+            <li role="presentation" class="active">
+              <a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">
+                <div class="writing"></div>
+              </a>
+            </li>
+            <li role="presentation">
+              <a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">
+                <div class="diagnostics"></div>
+              </a>
+            </li>
+            <li role="presentation">
+              <a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">
+                <div class="consultation"></div>
+              </a>
+            </li>
+          </ul>
+        </div><!-- /.tabs -->
+      </div><!-- /.col-md-7 -->
+
+      <div class="col-md-5">
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="tab1">
+            <h3>Запись на прием</h3>
+            <p class="border-left">
+              Ясность нашей позиции очевидна: высокотехнологичная концепция общественного уклада представляет собой интересный эксперимент проверки вывода текущих активов. Каждый из нас понимает очевидную вещь: перспективное планирование требует от нас анализа экономической целесообразности принимаемых решений.
+            </p>
+            <h3>Что входит?</h3>
+            <p class="title">Первичная консультация специалиста</p>
+            <p>
+              В целом, конечно, начало повседневной работы по формированию позиции обеспечивает актуальность новых принципов формирования материально-технической и кадровой базы. Вот вам яркий пример современных тенденций - перспективное планирование предопределяет высокую востребованность соответствующих условий активизации. Представители современных социальных резервов набирают популярность среди определенных слоев населения, а значит, должны быть своевременно верифицированы.
+            </p>
+            <a href="#" class="btn">Узнать подробнее</a>
+          </div><!-- /.tab-pane -->
+
+          <div role="tabpanel" class="tab-pane" id="tab2">
+            <h3>Диагностика и анализы</h3>
+            <p class="border-left">
+              Ясность нашей позиции очевидна: высокотехнологичная концепция общественного уклада представляет собой интересный эксперимент проверки вывода текущих активов. Каждый из нас понимает очевидную вещь: перспективное планирование требует от нас анализа экономической целесообразности принимаемых решений.
+            </p>
+            <h3>Обследования</h3>
+            <h4 class="left-icon"><img src="img/main/mrt.svg" alt="">МРТ</h4>
+            <p>
+              МРТ, или магнитно-резонансная томография – это современный и совершенно безопасный метод исследования внутренних тканей и органов.
+            </p>
+            <a href="#" class="link">Подробнее<img src="img/main/arrow.svg" alt="иконка стрелка направо"></a>
+            <hr>
+            <h4 class="left-icon"><img src="img/main/survey.svg" alt="">Комплексные обследования</h4>
+            <p>
+              Комплекексное МРТ позволяет исследовать область части тела с выгодой для пациента.
+            </p>
+            <a href="#" class="link">Подробнее<img src="img/main/arrow.svg" alt="иконка стрелка направо"></a>
+            <hr>
+            <h4 class="left-icon"><img src="img/main/dna-code.svg" alt="">РКТ (МСКТ)</h4>
+            <p>
+              Рентгеновская компьютерная томография (РКТ) или мультиспиральная компьютерная томография (МС КТ). Принцип работы аппарата КТ основан на сочетании рентгеновского излучения и возможности интерпретации данных в трехмерном изображении на экране компьютера.
+            </p>
+            <a href="#" class="link">Подробнее<img src="img/main/arrow.svg" alt="иконка стрелка направо"></a>
+            <hr>
+            <h4 class="left-icon"><img src="img/main/ultrasonic-research.svg" alt="">УЗИ</h4>
+            <p>
+              УЗ-исследование у опытных врачей и на самом современном оборудовании — аппарате General Electric VIVID E9 последнего поколения
+            </p>
+            <a href="#" class="link">Подробнее<img src="img/main/arrow.svg" alt="иконка стрелка направо"></a>
+            <hr>
+            <h4 class="left-icon"><img src="img/main/heart-care.svg" alt="">Уникальные услуги</h4>
+            <p>
+              УЗ-исследование у опытных врачей и на самом современном оборудовании — аппарате General Electric VIVID E9 последнего поколения
+            </p>
+            <a href="#" class="link">Подробнее<img src="img/main/arrow.svg" alt="иконка стрелка направо"></a>
+            <hr>
+            <h4 class="left-icon"><img src="img/main/test-tube-and-flask-for-chemistry-class.svg" alt="">Анализы</h4>
+            <p>
+              Диагностическая биохимическая лаборатория «Барсмед» в Казани теперь к Вашим услугам! Анализы любой сложности
+            </p>
+            <a href="#" class="link">Подробнее<img src="img/main/arrow.svg" alt="иконка стрелка направо"></a>
+            <hr>
+          </div><!-- /.tab-pane -->
+
+          <div role="tabpanel" class="tab-pane" id="tab3">
+            <h3>Консультация и лечение</h3>
+            <p class="border-left">
+              Ясность нашей позиции очевидна: высокотехнологичная концепция общественного уклада представляет собой интересный эксперимент проверки вывода текущих активов. Каждый из нас понимает очевидную вещь: перспективное планирование требует от нас анализа экономической целесообразности принимаемых решений.
+            </p>
+            <h4 class="after-conclusion">После заключения врача вы также получите:</h4>
+            <ul>
+              <li><span>Расшифровку анализов и исследований</span></li>
+              <li><span>Направление на дальнейшее лечение в клиники-партнеры</span></li>
+              <li><span>Полное описание нужной информации для дальнейшего лечения</span></li>
+            </ul>
+            <p class="call">Запишитесь прямо сейчас на консультацию к нашим <a href="#">специалистам</a></p>
+            <form action="#">
+              <input type="text" placeholder="Имя">
+              <input type="tel" placeholder="Телефон">
+              <button type="submit" class="btn">Записаться на прием</button>
+            </form>
+          </div><!-- /.tab-pane -->
+        </div><!-- /.tab-content -->
+      </div><!-- /.col-md-5 -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+</main>
 
 
 
@@ -76,7 +376,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        
+
       </div><!-- /.col-xs-12 -->
     </div><!-- /.row -->
   </div><!-- /.container -->
@@ -86,18 +386,10 @@
 
 
 
-
-
-
-
-
-
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- <script src="js/jquery-1.11.0.min.js"></script> -->
 <script src="js/bootstrap.min.js"></script>
-
+<script src="js/scripts.js"></script>
 
 </body>
 </html>
