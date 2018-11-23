@@ -1,0 +1,868 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
+input,
+textarea,
+button {
+  border: none;
+}
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+.btn {
+  padding: 11px 69px;
+  background: #70a335;
+  background: linear-gradient(93.72deg, #70a335 0.61%, #92c755 99.39%);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 15px;
+  text-transform: uppercase;
+}
+.btn:hover {
+  color: #fff;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.15);
+}
+.btn:active {
+  background: #70a335;
+  background: linear-gradient(93.72deg, #70a335 0.61%, #92c755 99.39%);
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
+}
+.btn:focus {
+  color: #fff;
+}
+.top-menu .navbar {
+  margin-bottom: 0;
+  min-height: auto;
+}
+.top-menu .navbar-collapse {
+  padding-left: 0;
+}
+.top-menu .navbar-default {
+  background-color: #70a335;
+  border: none;
+  border-radius: 0;
+}
+.top-menu .navbar-default .navbar-toggle {
+  border-color: #56ff56;
+}
+.top-menu .navbar-default .navbar-toggle:hover,
+.top-menu .navbar-default .navbar-toggle:focus {
+  background-color: #00a203;
+}
+.top-menu .navbar-default .navbar-toggle .icon-bar {
+  background-color: #046101;
+}
+.top-menu .navbar_left li > a {
+  padding: 13px 25px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+}
+.top-menu .navbar_left li > a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.top-menu .navbar_left li > a:focus {
+  color: #fff;
+}
+.top-menu .navbar_left li.dropdown > a {
+  padding-left: 0;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.top-menu .navbar_left li.dropdown > a:hover,
+.top-menu .navbar_left li.dropdown > a:focus,
+.top-menu .navbar_left li.dropdown > a:active {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.top-menu .navbar_left .dropdown-menu,
+.top-menu .navbar_left .open .dropdown-menu {
+  color: #fff;
+  background-color: #70a335;
+}
+.top-menu .navbar_left .dropdown-menu li a:hover,
+.top-menu .navbar_left .open .dropdown-menu li a:hover {
+  background-color: #84b749;
+  text-decoration: none;
+}
+.top-menu .navbar_left li.dropdown.open > a {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.top-menu .navbar-right li > a {
+  padding: 9px 9px;
+}
+.logo .logo-img {
+  margin: 21px 0;
+}
+.logo .adress {
+  position: relative;
+  padding-top: 20px;
+}
+.logo .adress > img {
+  position: absolute;
+  top: 23px;
+  left: 0;
+}
+.logo .adress p {
+  margin-bottom: 7px;
+  padding-left: 38px;
+  font-size: 12px;
+  line-height: 16px;
+}
+.logo .adress span {
+  padding-left: 38px;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+}
+.logo .adress span > img {
+  position: relative;
+  bottom: 1px;
+  left: 9px;
+}
+.logo .phone {
+  position: relative;
+  padding-top: 15px;
+}
+.logo .phone > img {
+  position: absolute;
+  top: 23px;
+  left: 5px;
+}
+.logo .phone p {
+  margin-bottom: 6px;
+  padding-left: 56px;
+  font-size: 12px;
+  line-height: 25px;
+}
+.logo .phone span {
+  padding-left: 53px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.logo .phone span > img {
+  position: relative;
+  bottom: 2px;
+  left: 11px;
+}
+.main-menu .navbar {
+  min-height: auto;
+  margin-bottom: 0;
+}
+.main-menu .navbar-default {
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 0;
+}
+.main-menu .container {
+  padding: 0;
+  max-width: 870px;
+}
+.main-menu .navbar-default .navbar-nav > li img {
+  position: absolute;
+  top: 19px;
+  left: 0;
+}
+.main-menu .navbar-default .navbar-nav > li a {
+  padding: 15px 0;
+  padding-left: 25px;
+  padding-right: 31px;
+  color: #656565;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.main-menu .navbar-default .navbar-nav > li a:hover {
+  text-decoration: underline;
+}
+.carousel .carousel-caption {
+  top: 0;
+  bottom: 0;
+  left: 105px;
+  width: 450px;
+  color: #fff;
+  text-align: left;
+}
+.carousel .carousel-caption h2 {
+  position: absolute;
+  bottom: 73%;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.carousel .carousel-caption p {
+  position: absolute;
+  bottom: 37%;
+  line-height: 25px;
+}
+.carousel .carousel-caption a.btn {
+  position: absolute;
+  bottom: 16%;
+  font-size: 18px;
+}
+.carousel .carousel-control.left img {
+  position: absolute;
+  top: 44%;
+  left: 21%;
+  transform: rotate(180deg);
+}
+.carousel .carousel-control.right img {
+  position: absolute;
+  top: 44%;
+  right: 21%;
+}
+@media only screen and (min-width: 1201px) {
+  .carousel {
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .top-menu .navbar_left {
+    width: 825px;
+  }
+  .top-menu .navbar_left li > a {
+    padding: 13px 16px;
+  }
+  .top-menu .navbar-right li > a {
+    font-size: 17px;
+  }
+  .logo .adress > img {
+    left: -40px;
+  }
+  .logo .adress p {
+    padding-left: 0;
+  }
+  .logo .adress span {
+    padding-left: 0;
+  }
+  .logo .phone > img {
+    left: -5px;
+  }
+  .logo .phone p {
+    padding-left: 40px;
+  }
+  .logo .phone span {
+    padding-left: 36px;
+  }
+  .carousel .carousel-caption p {
+    bottom: 29%;
+  }
+  .carousel .carousel-caption a.btn {
+    bottom: 8%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .top-menu .navbar_left {
+    width: 600px;
+  }
+  .top-menu .navbar_left li > a {
+    padding: 13px 30px;
+  }
+  .top-menu .navbar_left li:nth-child(6) > a {
+    padding-left: 0;
+  }
+  .logo .adress > img {
+    left: 0;
+  }
+  .logo .adress p {
+    padding-left: 38px;
+  }
+  .logo .adress span {
+    padding-left: 38px;
+  }
+  .logo .phone {
+    margin-bottom: 20px;
+  }
+  .main-menu .navbar-default .navbar-nav > li a {
+    padding-right: 25px;
+    font-size: 15px;
+  }
+  .carousel .carousel-caption h2 {
+    bottom: 75%;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .carousel .carousel-caption p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .carousel .carousel-caption a.btn {
+    bottom: 5%;
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .top-menu .navbar-collapse {
+    padding-left: 15px;
+  }
+  .top-menu .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+  .top-menu .navbar_left {
+    width: auto;
+  }
+  .top-menu .navbar_left li > a,
+  .top-menu .navbar_left li.dropdown > a,
+  .top-menu .navbar_left li:nth-child(6) > a {
+    padding-left: 20px;
+  }
+  .top-menu .navbar_left li > a:hover,
+  .top-menu .navbar_left li.dropdown > a:hover {
+    background-color: #84b749;
+    text-decoration: none;
+  }
+  .top-menu .navbar-right li {
+    display: inline-block;
+  }
+  .top-menu .navbar-right li a {
+    padding: 15px 25px;
+  }
+  .logo .adress {
+    margin-bottom: 20px;
+  }
+  .main-menu .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .main-menu .navbar-default .navbar-nav > li img {
+    left: 15px;
+  }
+  .main-menu .navbar-default .navbar-nav > li a {
+    padding-left: 45px;
+  }
+  .main-menu .navbar-default .navbar-nav > li a:hover {
+    text-decoration: none;
+  }
+  .main-menu .navbar-default .navbar-nav > li:hover {
+    background-color: #ddd;
+  }
+  .carousel {
+    display: none;
+  }
+  .pattern {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .logo .logo-img img {
+    width: 270px;
+  }
+  .logo .adress {
+    margin-top: 35px;
+  }
+  .logo .adress > img {
+    top: 0;
+  }
+  .logo .adress span {
+    padding-left: 0;
+  }
+}
+main {
+  margin-bottom: 100px;
+}
+main .heading {
+  margin-top: -16px;
+  margin-bottom: 106px;
+  text-align: center;
+  text-transform: uppercase;
+}
+main .heading h2 {
+  margin-bottom: 12px;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 800;
+}
+main .tabs {
+  position: relative;
+}
+main .tabs .circle {
+  position: absolute;
+  top: 154px;
+  left: 176px;
+  width: 225px;
+  height: 225px;
+}
+main .tabs .circle .contour {
+  position: absolute;
+  top: -15.75px;
+  left: -15.75px;
+  width: 256.5px;
+  height: 256.5px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+main .tabs .circle .contour-hover {
+  position: absolute;
+  top: -25.875px;
+  left: -25.875px;
+  width: 276.75px;
+  height: 276.75px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+main .tabs .nav li > a {
+  position: static;
+  display: inline;
+  padding: 0;
+}
+main .tabs .nav li > a .writing {
+  position: absolute;
+  top: -98px;
+  left: -86px;
+  width: 444px;
+  height: 542px;
+  background: url(../img/main/writing.svg) no-repeat;
+}
+main .tabs .nav li > a .writing:hover {
+  position: absolute;
+  top: -58px;
+  left: -52px;
+  width: 408px;
+  height: 499px;
+  background: url(../img/main/writing-hover.svg) no-repeat;
+}
+main .tabs .nav li > a .writing:hover .writing {
+  background: none;
+}
+main .tabs .nav li > a .diagnostics {
+  position: absolute;
+  top: -25px;
+  left: 305px;
+  width: 275px;
+  height: 436px;
+  background: url(../img/main/diagnostics.svg) no-repeat;
+}
+main .tabs .nav li > a .diagnostics:hover {
+  position: absolute;
+  top: -55px;
+  left: 285px;
+  width: 342px;
+  height: 513px;
+  background: url(../img/main/diagnostics-hover.svg) no-repeat;
+}
+main .tabs .nav li > a .diagnostics:hover .diagnostics {
+  background: none;
+}
+main .tabs .nav li > a .consultation {
+  position: absolute;
+  top: 332px;
+  left: 35px;
+  width: 496px;
+  height: 227px;
+  background: url(../img/main/consultation.svg) no-repeat;
+}
+main .tabs .nav li > a .consultation:hover {
+  position: absolute;
+  top: 323px;
+  left: 1px;
+  width: 563px;
+  height: 285px;
+  background: url(../img/main/consultation-hover.svg) no-repeat;
+}
+main .tabs .nav li > a .consultation:hover .consultation {
+  background: none;
+}
+main .tab-content {
+  margin-top: -37px;
+}
+main .tab-content .tab-pane h3 {
+  margin-top: 30px;
+  margin-bottom: 13px;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+main .tab-content .tab-pane h4 {
+  margin-top: 20px;
+  margin-bottom: 12px;
+  color: #353535;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+}
+main .tab-content .tab-pane h4.left-icon {
+  padding-left: 20px;
+}
+main .tab-content .tab-pane h4.left-icon img {
+  position: relative;
+  top: 0;
+  left: -20px;
+}
+main .tab-content .tab-pane p {
+  color: #353535;
+  opacity: 0.7;
+}
+main .tab-content .tab-pane p.border-left {
+  padding-left: 11px;
+  border-left: 3px solid #c4c4c4;
+}
+main .tab-content .tab-pane p.title {
+  margin-top: 22px;
+  margin-bottom: 6px;
+  color: #26aba6;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+main .tab-content .tab-pane a.btn {
+  margin-top: 10px;
+  padding: 13px 69px;
+  width: 100%;
+}
+main .tab-content .tab-pane a.link {
+  color: #70a335;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+main .tab-content .tab-pane a.link:hover {
+  text-decoration: none;
+}
+main .tab-content .tab-pane a.link img {
+  position: relative;
+  top: -1px;
+  left: 15px;
+}
+main .tab-content .tab-pane hr {
+  margin-top: 20px;
+}
+main .tab-content .tab-pane h4.after-conclusion {
+  margin-top: 34px;
+}
+main .tab-content .tab-pane ul {
+  margin-top: 15px;
+  padding-left: 17px;
+  list-style-image: url(../img/main/disc.svg);
+}
+main .tab-content .tab-pane ul li {
+  padding-left: 3px;
+  padding-bottom: 5px;
+}
+main .tab-content .tab-pane ul li span {
+  color: #353535;
+  opacity: 0.7;
+}
+main .tab-content .tab-pane p.call {
+  margin-top: 34px;
+  margin-bottom: 15px;
+  color: #000;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 1;
+}
+main .tab-content .tab-pane p.call a {
+  color: #8ec153;
+  text-decoration: underline;
+}
+main .tab-content .tab-pane p.call a:hover {
+  text-decoration: none;
+}
+main .tab-content .tab-pane form {
+  margin-top: 30px;
+}
+main .tab-content .tab-pane form input {
+  margin-bottom: 20px;
+  padding: 12px 23px;
+  width: 100%;
+  border: 1px solid #ededed;
+  border-radius: 15px;
+}
+main .tab-content .tab-pane form button {
+  margin-top: 5px;
+  padding: 13px 69px;
+  width: 100%;
+}
+@media only screen and (min-width: 1201px) {
+  main .pattern {
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  main .heading {
+    margin-bottom: 70px;
+  }
+  main .tabs .circle {
+    width: 180px;
+    height: 180px;
+  }
+  main .tabs .circle .contour {
+    top: -12.6px;
+    left: -12.6px;
+    width: 205.2px;
+    height: 205.2px;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  main .tabs .circle .contour-hover {
+    top: -20.7px;
+    left: -20.7px;
+    width: 221.4px;
+    height: 221.4px;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  main .tabs .nav li > a .writing {
+    top: -47px;
+    left: -34px;
+    width: 355.2px;
+    height: 433.6px;
+  }
+  main .tabs .nav li > a .writing:hover {
+    top: -14px;
+    left: -7px;
+    width: 326.4px;
+    height: 399.2px;
+  }
+  main .tabs .nav li > a .diagnostics {
+    top: 12px;
+    left: 279px;
+    width: 220px;
+    height: 348.8px;
+  }
+  main .tabs .nav li > a .diagnostics:hover {
+    top: -12px;
+    left: 264px;
+    width: 273.6px;
+    height: 410.4px;
+  }
+  main .tabs .nav li > a .consultation {
+    top: 297px;
+    left: 64px;
+    width: 396.8px;
+    height: 181.6px;
+  }
+  main .tabs .nav li > a .consultation:hover {
+    top: 290px;
+    left: 36px;
+    width: 450.4px;
+    height: 228px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  main .heading {
+    margin-bottom: 50px;
+  }
+  main .tabs {
+    width: 500px;
+    margin: 0 auto;
+  }
+  main .tabs .circle {
+    top: 154px;
+    left: 160px;
+    width: 180px;
+    height: 180px;
+  }
+  main .tabs .circle .contour {
+    top: -12.6px;
+    left: -12.6px;
+    width: 205.2px;
+    height: 205.2px;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  main .tabs .circle .contour-hover {
+    top: -20.7px;
+    left: -20.7px;
+    width: 221.4px;
+    height: 221.4px;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  main .tabs .nav li > a .writing {
+    top: -47px;
+    left: -50px;
+    width: 355.2px;
+    height: 433.6px;
+  }
+  main .tabs .nav li > a .writing:hover {
+    top: -14px;
+    left: -22px;
+    width: 326.4px;
+    height: 399.2px;
+  }
+  main .tabs .nav li > a .diagnostics {
+    top: 12px;
+    left: 263px;
+    width: 220px;
+    height: 348.8px;
+  }
+  main .tabs .nav li > a .diagnostics:hover {
+    top: -12px;
+    left: 247px;
+    width: 273.6px;
+    height: 410.4px;
+  }
+  main .tabs .nav li > a .consultation {
+    top: 297px;
+    left: 48px;
+    width: 396.8px;
+    height: 181.6px;
+  }
+  main .tabs .nav li > a .consultation:hover {
+    top: 289px;
+    left: 20px;
+    width: 450.4px;
+    height: 228px;
+  }
+  main .tab-content {
+    margin-top: 540px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  main .heading {
+    margin-top: 60px;
+  }
+  main .tabs {
+    width: 421px;
+  }
+  main .tabs .circle {
+    top: 114px;
+    left: 143px;
+    width: 135px;
+    height: 135px;
+  }
+  main .tabs .circle .contour {
+    top: -9.45px;
+    left: -9.45px;
+    width: 153.9px;
+    height: 153.9px;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  main .tabs .circle .contour-hover {
+    top: -15.525px;
+    left: -15.525px;
+    width: 166.05px;
+    height: 166.05px;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  main .tabs .nav li > a .writing {
+    top: -37px;
+    left: -14px;
+    width: 266.4px;
+    height: 325.2px;
+  }
+  main .tabs .nav li > a .writing:hover {
+    top: -13px;
+    left: 6px;
+    width: 244.8px;
+    height: 299.4px;
+  }
+  main .tabs .nav li > a .diagnostics {
+    top: 7px;
+    left: 220px;
+    width: 165px;
+    height: 261.6px;
+  }
+  main .tabs .nav li > a .diagnostics:hover {
+    top: -12px;
+    left: 209px;
+    width: 205.2px;
+    height: 307.8px;
+  }
+  main .tabs .nav li > a .consultation {
+    top: 220px;
+    left: 59px;
+    width: 297.6px;
+    height: 136.2px;
+  }
+  main .tabs .nav li > a .consultation:hover {
+    top: 214px;
+    left: 38px;
+    width: 337.8px;
+    height: 171px;
+  }
+  main .tab-content {
+    margin-top: 420px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  main .heading {
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+  main .tabs {
+    width: 250px;
+  }
+  main .tabs .circle {
+    top: 90px;
+    left: 80px;
+    width: 90px;
+    height: 90px;
+  }
+  main .tabs .circle .contour {
+    top: -6.3px;
+    left: -6.3px;
+    width: 102.6px;
+    height: 102.6px;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  main .tabs .circle .contour-hover {
+    top: -10.35px;
+    left: -10.35px;
+    width: 110.7px;
+    height: 110.7px;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  main .tabs .nav li > a .writing {
+    top: -11px;
+    left: -25px;
+    width: 177.6px;
+    height: 216.8px;
+  }
+  main .tabs .nav li > a .writing:hover {
+    top: 6px;
+    left: -11px;
+    width: 163.2px;
+    height: 199.6px;
+  }
+  main .tabs .nav li > a .diagnostics {
+    top: 18px;
+    left: 131px;
+    width: 110px;
+    height: 174.4px;
+  }
+  main .tabs .nav li > a .diagnostics:hover {
+    top: 7px;
+    left: 123px;
+    width: 136.8px;
+    height: 205.2px;
+  }
+  main .tabs .nav li > a .consultation {
+    top: 161px;
+    left: 23px;
+    width: 198.4px;
+    height: 90.8px;
+  }
+  main .tabs .nav li > a .consultation:hover {
+    top: 156px;
+    left: 10px;
+    width: 225.2px;
+    height: 114px;
+  }
+  main .tab-content {
+    margin-top: 290px;
+  }
+  main .tab-content .tab-pane form button {
+    padding: 13px 30px;
+  }
+}
